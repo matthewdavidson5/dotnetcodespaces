@@ -39,6 +39,5 @@ namespace businessclasses {
             this.patientHeadOfHouse = patientHeadOfHouse;
             this.patientAllergies = patientAllergies;
         }
-
     }
 }
