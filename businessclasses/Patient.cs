@@ -2,235 +2,235 @@
 
 namespace businessclasses 
 {
-    class Patient 
+    public class Patient 
     {
 
-        private int patientID;
-        private int accountID;
-        private string patientFirstName; 
-        private string patientMiddleName;
-        private string patientLastName;
-        private string patientStreet;
-        private string patientCity;
-        private string patientState; 
-        private string patientZIP;
-        private string patientPrimaryPhone;
-        private string patientSecondaryPhone;
-        private string patientSSN;
-        private DateTime patientDOB;
-        private boolean isMinor; 
-        private int patientHeadOfHouse;
-        private string[] patientAllergies;
+        private int intPatientID;
+        private int intAccountID;
+        private string strPatientFirstName; 
+        private string strPatientMiddleName;
+        private string strPatientLastName;
+        private string strPatientStreet;
+        private string strPatientCity;
+        private string strPatientState; 
+        private string strPatientZIP;
+        private string strPatientPrimaryPhone;
+        private string strPatientSecondaryPhone;
+        private string strPatientSSN;
+        private DateTime dtPatientDOB;
+        private bool boolIsMinor; 
+        private int intPatientHeadOfHouse;
+        private string[] strarrPatientAllergies;
        
-        public Patient(int patientID, int accountID, string patientFirstName, string patientMiddleName, string patientLastName, string patientStreet, string patientCity, string patientState, string patientZIP, string patientPrimaryPhone, string patientSecondaryPhone, string patientSSN, DateTime patientDOB, boolean isMinor, int patientHeadOfHouse, string[] patientAllergies) 
+        public Patient(int intPatientID, int intAccountID, string strPatientFirstName, string strPatientMiddleName, string strPatientLastName, string strPatientStreet, string strPatientCity, string strPatientState, string strPatientZIP, string strPatientPrimaryPhone, string strPatientSecondaryPhone, string strPatientSSN, DateTime dtPatientDOB, bool boolIsMinor, int intPatientHeadOfHouse, string[] strarrPatientAllergies) 
         {
-            this.patientID = patientID;
-            this.accountID = accountID;
-            this.patientFirstName = patientFirstName;
-            this.patientMiddleName = patientMiddleName;
-            this.patientLastName = patientLastName;
-            this.patientStreet = patientStreet;
-            this.patientCity = patientCity;
-            this.patientState = patientState;
-            this.patientZIP = patientZIP;
-            this.patientPrimaryPhone = patientPrimaryPhone;
-            this.patientSecondaryPhone = patientSecondaryPhone;
-            this.patientSSN = patientSSN;
-            this.patientDOB = patientDOB;
-            this.isMinor = isMinor;
-            this.patientHeadOfHouse = patientHeadOfHouse;
-            this.patientAllergies = patientAllergies;
+            this.intPatientID = intPatientID;
+            this.intAccountID = intAccountID;
+            this.strPatientFirstName = strPatientFirstName;
+            this.strPatientMiddleName = strPatientMiddleName;
+            this.strPatientLastName = strPatientLastName;
+            this.strPatientStreet = strPatientStreet;
+            this.strPatientCity = strPatientCity;
+            this.strPatientState = strPatientState;
+            this.strPatientZIP = strPatientZIP;
+            this.strPatientPrimaryPhone = strPatientPrimaryPhone;
+            this.strPatientSecondaryPhone = strPatientSecondaryPhone;
+            this.strPatientSSN = strPatientSSN;
+            this.dtPatientDOB = dtPatientDOB;
+            this.boolIsMinor = boolIsMinor;
+            this.intPatientHeadOfHouse = intPatientHeadOfHouse;
+            this.strarrPatientAllergies = strarrPatientAllergies;
         }
 
-        public int patientID 
+        public int IntPatientID 
         {
             get 
             {
-                return this.patientID;
+                return this.intPatientID;
             }
             set 
             {
-                this.patientID = value; 
+                this.intPatientID = value; 
             }
         }
 
-        public int accountID
+        public int IntAccountID
         {
             get 
             {
-                return this.accountID;
+                return this.intAccountID;
             }
             set
             {
-                this.accountID = value; 
+                this.intAccountID = value; 
             }
         }
 
-        public string patientFirstName
+        public string StrPatientFirstName
         {
             get
             {
-                return this.patientFirstNam;
+                return this.strPatientFirstNam;
             }
             set
             {
-                this.patientFirstName = value; 
+                this.strPatientFirstName = value; 
             }
         }
 
-        public string patientMiddleName
+        public string StrPatientMiddleName
         {
             get
             {
-                return this.patientMiddleName;
+                return this.strPatientMiddleName;
             }
             set
             {
-                this.patientMiddleName = value;
+                this.strPatientMiddleName = value;
             }
         }
 
-        public string patientLastName
+        public string StrPatientLastName
         {
             get
             {
-                return this.patientLastName;
+                return this.strPatientLastName;
             }
             set
             {
-                this.patientLastName = value; 
+                this.strPatientLastName = value; 
             }
         }
 
-        public string patientStreet
+        public string StrPatientStreet
         {
             get
             {
-                return this.patientStreet;
+                return this.strPatientStreet;
             }
             set
             {
-                this.patientStreet = value;
+                this.strPatientStreet = value;
             }
         }
 
-        public string patientCity
+        public string StrPatientCity
         {
             get
             {
-                return this.patientCity;
+                return this.strPatientCity;
             }
             set
             {
-                this.patientCity = value;
+                this.strPatientCity = value;
             }
         }
 
-        public string patientState
+        public string StrPatientState
         {
             get
             {
-                return this.patientState;
+                return this.strPatientState;
             }
             set
             {
-                this.patientState = value; 
+                this.strPatientState = value; 
             }
         }
         
-        public string patientZIP
+        public string StrPatientZIP
         {
             get
             {
-                return this.patientZIP;
+                return this.strPatientZIP;
             }
             set
             {
-                this.patientZIP = value;
+                this.strPatientZIP = value;
             }
         }
 
-        public string patientPrimaryPhone
+        public string StrPatientPrimaryPhone
         {
             get
             {
-                return this.patientPrimaryPhone;
+                return this.strPatientPrimaryPhone;
             }
             set
             {
-                this.patientPrimaryPhone = value;
+                this.strPatientPrimaryPhone = value;
             }
         }
 
-        public string patientSecondaryPhone
+        public string StrPatientSecondaryPhone
         {
             get
             {
-                return this.patientSecondaryPhone;
+                return this.strPatientSecondaryPhone;
             }
             set
             {
-                this.patientSecondaryPhone = value;
+                this.strPatientSecondaryPhone = value;
             }
         }
 
-        public string patientSSN
+        public string StrPatientSSN
         {
             get
             {
-                return this.patientSSN;
+                return this.strPatientSSN;
             }
             set
             {
-                this.patientSSN = value;
+                this.strPatientSSN = value;
             }
         }
 
-        public DateTime patientDOB
+        public DateTime DtPatientDOB
         {
             get
             {
-                return this.patientDOB;
+                return this.dtPatientDOB;
             }
             set
             {
-                this.patientDOB = value;
+                this.dtPatientDOB = value;
             }
         }
 
-        public boolean isMinor
+        public bool BoolIsMinor
         {
             get
             {
-                return this.isMinor;
+                return this.boolIsMinor;
             }
             set
             {
-                this.isMinor = value;
+                this.boolIsMinor = value;
             }
         }
 
-        public int patientHeadOfHouse
+        public int IntPatientHeadOfHouse
         {
             get
             {
-                return this.patientHeadOfHouse;
+                return this.intPatientHeadOfHouse;
             }
             set
             {
-                this.patientHeadOfHouse = value;
+                this.intPatientHeadOfHouse = value;
             }
         }
 
-        public string[] patientAllergies
+        public string[] StrarrPatientAllergies
         {
             get
             {
-                return this.patientAllergies;
+                return this.strarrPatientAllergies;
             }
             set
             {
-                this.patientAllergies = value;
+                this.strarrPatientAllergies = value;
             }
         }
     }
