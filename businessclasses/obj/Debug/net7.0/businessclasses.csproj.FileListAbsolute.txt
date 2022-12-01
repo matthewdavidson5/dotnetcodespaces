@@ -1,0 +1,15 @@
+/workspaces/dotnetcodespaces/businessclasses/obj/Debug/net7.0/businessclasses.csproj.AssemblyReference.cache
+/workspaces/dotnetcodespaces/businessclasses/obj/Debug/net7.0/businessclasses.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/dotnetcodespaces/businessclasses/obj/Debug/net7.0/businessclasses.AssemblyInfoInputs.cache
+/workspaces/dotnetcodespaces/businessclasses/obj/Debug/net7.0/businessclasses.AssemblyInfo.cs
+/workspaces/dotnetcodespaces/businessclasses/obj/Debug/net7.0/businessclasses.csproj.CoreCompileInputs.cache
+/workspaces/dotnetcodespaces/businessclasses/bin/Debug/net7.0/businessclasses
+/workspaces/dotnetcodespaces/businessclasses/bin/Debug/net7.0/businessclasses.deps.json
+/workspaces/dotnetcodespaces/businessclasses/bin/Debug/net7.0/businessclasses.runtimeconfig.json
+/workspaces/dotnetcodespaces/businessclasses/bin/Debug/net7.0/businessclasses.dll
+/workspaces/dotnetcodespaces/businessclasses/bin/Debug/net7.0/businessclasses.pdb
+/workspaces/dotnetcodespaces/businessclasses/obj/Debug/net7.0/businessclasses.dll
+/workspaces/dotnetcodespaces/businessclasses/obj/Debug/net7.0/refint/businessclasses.dll
+/workspaces/dotnetcodespaces/businessclasses/obj/Debug/net7.0/businessclasses.pdb
+/workspaces/dotnetcodespaces/businessclasses/obj/Debug/net7.0/businessclasses.genruntimeconfig.cache
+/workspaces/dotnetcodespaces/businessclasses/obj/Debug/net7.0/ref/businessclasses.dll
