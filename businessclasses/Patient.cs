@@ -1,10 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿//AUTHOR: Matthew Davidson, Josh Hill, Daniel Ortiz
+//COURSE: ISTM 315.502
+//CLASS: Patient
+//PURPOSE: To serve as a container for patient information.
+//HONOR CODE: “On my honor, as an Aggie, I have neither given 
+// nor received unauthorized aid on this academic 
+// work.”
 
 namespace businessclasses 
 {
     public class Patient 
     {
 
+        //private fields
         private int intPatientID;
         private int intAccountID;
         private string strPatientFirstName; 
@@ -22,6 +29,10 @@ namespace businessclasses
         private int intPatientHeadOfHouse;
         private string[] strarrPatientAllergies;
        
+        //Default constructor with no args
+        public Patient() { }
+
+        //Custom constructor for assigment upon init
         public Patient(int intPatientID, int intAccountID, string strPatientFirstName, string strPatientMiddleName, string strPatientLastName, string strPatientStreet, string strPatientCity, string strPatientState, string strPatientZIP, string strPatientPrimaryPhone, string strPatientSecondaryPhone, string strPatientSSN, DateTime dtPatientDOB, bool boolIsMinor, int intPatientHeadOfHouse, string[] strarrPatientAllergies) 
         {
             this.intPatientID = intPatientID;
@@ -42,7 +53,8 @@ namespace businessclasses
             this.strarrPatientAllergies = strarrPatientAllergies;
         }
 
-        public int IntPatientID 
+        //Public properties to access private fields
+        public int PatientID 
         {
             get 
             {
@@ -54,7 +66,7 @@ namespace businessclasses
             }
         }
 
-        public int IntAccountID
+        public int AccountID
         {
             get 
             {
@@ -66,11 +78,11 @@ namespace businessclasses
             }
         }
 
-        public string StrPatientFirstName
+        public string PatientFirstName
         {
             get
             {
-                return this.strPatientFirstNam;
+                return this.strPatientFirstName;
             }
             set
             {
@@ -78,7 +90,7 @@ namespace businessclasses
             }
         }
 
-        public string StrPatientMiddleName
+        public string PatientMiddleName
         {
             get
             {
@@ -90,7 +102,7 @@ namespace businessclasses
             }
         }
 
-        public string StrPatientLastName
+        public string PatientLastName
         {
             get
             {
@@ -102,7 +114,7 @@ namespace businessclasses
             }
         }
 
-        public string StrPatientStreet
+        public string PatientStreet
         {
             get
             {
@@ -114,7 +126,7 @@ namespace businessclasses
             }
         }
 
-        public string StrPatientCity
+        public string PatientCity
         {
             get
             {
@@ -126,7 +138,7 @@ namespace businessclasses
             }
         }
 
-        public string StrPatientState
+        public string PatientState
         {
             get
             {
@@ -138,7 +150,7 @@ namespace businessclasses
             }
         }
         
-        public string StrPatientZIP
+        public string PatientZIP
         {
             get
             {
@@ -150,7 +162,7 @@ namespace businessclasses
             }
         }
 
-        public string StrPatientPrimaryPhone
+        public string PatientPrimaryPhone
         {
             get
             {
@@ -162,7 +174,7 @@ namespace businessclasses
             }
         }
 
-        public string StrPatientSecondaryPhone
+        public string PatientSecondaryPhone
         {
             get
             {
@@ -174,7 +186,7 @@ namespace businessclasses
             }
         }
 
-        public string StrPatientSSN
+        public string PatientSSN
         {
             get
             {
@@ -186,7 +198,7 @@ namespace businessclasses
             }
         }
 
-        public DateTime DtPatientDOB
+        public DateTime PatientDOB
         {
             get
             {
@@ -198,7 +210,7 @@ namespace businessclasses
             }
         }
 
-        public bool BoolIsMinor
+        public bool IsMinor
         {
             get
             {
@@ -210,7 +222,7 @@ namespace businessclasses
             }
         }
 
-        public int IntPatientHeadOfHouse
+        public int PatientHeadOfHouse
         {
             get
             {
@@ -222,7 +234,7 @@ namespace businessclasses
             }
         }
 
-        public string[] StrarrPatientAllergies
+        public string[] PatientAllergies
         {
             get
             {
@@ -233,5 +245,9 @@ namespace businessclasses
                 this.strarrPatientAllergies = value;
             }
         }
+
+        /* public static void Main(string[] args) {
+        
+        } */
     }
 }
